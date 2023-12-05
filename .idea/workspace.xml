@@ -5,21 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1e139a3-9de0-43af-b9c8-b0f708f57a84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KunalDSA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Concepts/JavaBasics/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Concepts/Arrays/Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Concepts/Arrays/Arrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Concepts/JavaBasics/Io.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Concepts/JavaBasics/Io.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Concepts/JavaBasics/Loops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Concepts/JavaBasics/Loops.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Concepts/JavaBasics/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Concepts/JavaBasics/Methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Concepts/JavaBasics/Primitives.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Concepts/JavaBasics/Primitives.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Concepts/JavaBasics/Switch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Concepts/JavaBasics/Switch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Concepts/JavaBasics/Typecasting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Concepts/JavaBasics/Typecasting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Class/Concepts/Arrays/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Class/Concepts/Arrays/Arraylist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Class/Concepts/Arrays/MultiDimensionalArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Class/Examples/ArrayExamples/Basic_Examples/MaxValueinArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class/Concepts/Arrays/Arrays.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +43,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.AutomatedFibonaci">
+  <component name="RunManager">
     <configuration name="AutomatedFibonaci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Examples.AutomatedFibonaci" />
       <module name="KunalDSA" />
@@ -81,8 +72,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LargestNum" />
         <item itemvalue="Application.AutomatedFibonaci" />
+        <item itemvalue="Application.LargestNum" />
       </list>
     </recent_temporary>
   </component>
@@ -106,22 +97,22 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/Concepts/JavaBasics/Loops.java</url>
+          <url>file://$PROJECT_DIR$/src/Class/Concepts/JavaBasics/Loops.java</url>
           <line>13</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/Examples/BasicExamples/TemperatureConverter.java</url>
+          <url>file://$PROJECT_DIR$/src/Class/Examples/BasicExamples/TemperatureConverter.java</url>
           <line>13</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/Examples/BasicExamples/TemperatureConverter.java</url>
+          <url>file://$PROJECT_DIR$/src/Class/Examples/BasicExamples/TemperatureConverter.java</url>
           <line>11</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/Examples/BasicExamples/LargestNum.java</url>
+          <url>file://$PROJECT_DIR$/src/Class/Examples/BasicExamples/LargestNum.java</url>
           <line>11</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
