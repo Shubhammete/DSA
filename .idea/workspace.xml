@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e1e139a3-9de0-43af-b9c8-b0f708f57a84" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class/Concepts/Arrays/demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class/CornerCases/Arrays/Arraycornercases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/CornerCases/Arrays/Arraycornercases.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.AutomatedFibonaci">
     <configuration name="AutomatedFibonaci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Examples.AutomatedFibonaci" />
       <module name="KunalDSA" />
