@@ -14,6 +14,7 @@ public class FindFirstandLastPositionOfTarget {
 
             int[] ans = {-1, -1};
             ans[0] = search(nums, target, true);
+            // optimization if we could not find start here it means the element does not exist so don't check for end
             if (ans[0] != -1) {
                 ans[1] = search(nums, target, false);
             }

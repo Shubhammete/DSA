@@ -9,6 +9,7 @@ public class Leap_Year {
         int year = in.nextInt();
         int finalyear = year;
         int count = 0;
+        // check if year is in format of yyyy
         while(year>0){
             year /= 10;
             count++;

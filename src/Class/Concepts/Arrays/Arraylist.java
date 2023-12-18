@@ -6,16 +6,18 @@ public class Arraylist {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         // arraylist initialization and declaration
-        ArrayList<Integer> name = new ArrayList<>(10);
-
+        ArrayList<Integer> name = new ArrayList<>();
+        // adds element to list
         name.add(23);
-        name.add(24); // adds element to list
+        name.add(24);
         name.add(25);
         System.out.println(name);
         System.out.println(name.contains(23));
-        name.set(1,29);   // updates element set(index,value)
+        // updates element set(index,value)
+        name.set(1,29);
         System.out.println(name);
-        name.remove(2);   // removes element remove(index)
+        // removes element remove(index)
+        name.remove(2);
         System.out.println(name);
 
         //input and output
