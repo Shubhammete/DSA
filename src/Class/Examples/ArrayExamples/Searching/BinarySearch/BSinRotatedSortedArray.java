@@ -13,12 +13,13 @@ public class BSinRotatedSortedArray {
 
     static int ans(int[] arr,int target){
         int pivot = findPivot(arr);
-        if(arr[pivot] == target){
-            return pivot;
-        }
         if(pivot == -1){
             return BS(arr,target,0, arr.length - 1);
         }
+        if(arr[pivot] == target){
+            return pivot;
+        }
+
 
         if(arr[0]<=arr[target]){
             return BS(arr,target,0,pivot-1);
@@ -39,10 +40,10 @@ public class BSinRotatedSortedArray {
             if(arr[mid]<arr[mid-1]){
                 return mid-1;
             }
-            if(arr[mid]<=start){
-                start = mid +1;
-            }else{
+            if(arr[mid]<=arr[start]){
                 end = mid - 1;
+            }else{
+                start = mid + 1;
             }
         }
         return -1;

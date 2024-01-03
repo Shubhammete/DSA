@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e1e139a3-9de0-43af-b9c8-b0f708f57a84" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class/Concepts/Arrays/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Concepts/Arrays/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class/Concepts/Arrays/Searching/BinarySearchinSortedMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Concepts/Arrays/Searching/BinarySearchinSortedMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class/Concepts/JavaBasics/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Concepts/JavaBasics/Methods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class/Examples/ArrayExamples/Searching/BinarySearch/BSinRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Examples/ArrayExamples/Searching/BinarySearch/BSinRotatedSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class/Examples/ArrayExamples/Searching/BinarySearch/FindCeilElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Examples/ArrayExamples/Searching/BinarySearch/FindCeilElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,6 +127,31 @@
           <url>file://$PROJECT_DIR$/src/Class/Concepts/Arrays/Searching/BinarySearchinSortedMatrix.java</url>
           <line>17</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Class/Examples/ArrayExamples/Sorting/CyclicSort/FindDuplicate.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Class/Concepts/Recursion/FibonacciNo.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Class/Concepts/Recursion/BSwithRecursion.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Demo.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Class/Concepts/BitManipulation/FindNonTriplicate.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

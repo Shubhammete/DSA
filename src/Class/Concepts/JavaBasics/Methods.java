@@ -6,7 +6,6 @@ public class Methods {
     static int global = 23;
     public static void main(String[] args) {
 
-
         String name = "Shubham";
         changeName(name);  // here we pass value and make naam pointing to "Shubham" but in function we are not changing original value, but we are creating a new object "Kunal"
         // in primitive data types we pass value and not reference so the value is not modified

@@ -28,13 +28,14 @@ public class BinarySearchinSortedMatrix {
         int colMid = cols  / 2;
 
         // run while loop until two rows are remaining
-        while (rowStart < (rowEnd - 1)  ) {
+        while (rowStart < (rowEnd - 1)) // loop break point --> rowStart == rowEnd - 1  rowStart = 0  rowEnd = 1
+        {
             int mid = rowStart + (rowEnd - rowStart) / 2;
             if (arr[mid][colMid] == target) {
                 return new int[]{mid, colMid};
             }
             if (arr[mid][colMid] < target) {
-                rowStart = mid ; // mid+1 and mid-1 will equate to each other so only mid
+                rowStart = mid ;   // mid+1 and mid-1 will equate to each other so only mid
             } else {
                 rowEnd = mid ;
             }
@@ -69,7 +70,6 @@ public class BinarySearchinSortedMatrix {
 
 //
 static int[] BS(int[][] matrix, int target, int row, int colStart,int colEnd){
-    boolean isAsc = colStart < colEnd;
     while(colStart<=colEnd){
         int mid = colStart + (colEnd - colStart) /2;
         if(matrix[row][mid] == target){
