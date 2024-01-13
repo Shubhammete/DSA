@@ -6,11 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e1e139a3-9de0-43af-b9c8-b0f708f57a84" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class/Concepts/Arrays/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Concepts/Arrays/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class/Concepts/Arrays/Searching/BinarySearchinSortedMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Concepts/Arrays/Searching/BinarySearchinSortedMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class/Concepts/JavaBasics/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Concepts/JavaBasics/Methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class/Examples/ArrayExamples/Searching/BinarySearch/BSinRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Examples/ArrayExamples/Searching/BinarySearch/BSinRotatedSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class/Examples/ArrayExamples/Searching/BinarySearch/FindCeilElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Examples/ArrayExamples/Searching/BinarySearch/FindCeilElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class/Concepts/JavaBasics/Typecasting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Concepts/JavaBasics/Typecasting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class/Concepts/Recursion/BSwithRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Concepts/Recursion/Easy/BSwithRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class/Concepts/Recursion/FibonacciNo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Concepts/Recursion/Easy/FibonacciNo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class/Concepts/Recursion/FibowithFormula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Concepts/Recursion/Easy/FibowithFormula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class/Concepts/Recursion/Printno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Concepts/Recursion/Easy/Printno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,12 +135,12 @@
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Class/Concepts/Recursion/FibonacciNo.java</url>
+          <url>file://$PROJECT_DIR$/src/Class/Concepts/Recursion/Easy/FibonacciNo.java</url>
           <line>7</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Class/Concepts/Recursion/BSwithRecursion.java</url>
+          <url>file://$PROJECT_DIR$/src/Class/Concepts/Recursion/Easy/BSwithRecursion.java</url>
           <line>9</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
@@ -152,6 +153,51 @@
           <url>file://$PROJECT_DIR$/src/Class/Concepts/BitManipulation/FindNonTriplicate.java</url>
           <line>7</line>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Class/Concepts/Maths/PrimeNoinRange.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Demo.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Class/Concepts/Arrays/Sorting/InsertionSort/InsertionSort.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Class/Concepts/Recursion/Easy/Printno.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Class/Concepts/Recursion/Easy/AdditionOfDigits.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Class/Concepts/Recursion/Easy/ProductOfDigits.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Class/Concepts/Recursion/Pattern/Triangle.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Class/Concepts/Recursion/Sorting/SelectionSort.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Class/Concepts/Recursion/Sorting/InplaceMergeSort.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

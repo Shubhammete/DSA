@@ -1,4 +1,4 @@
-package Class.Concepts.Recursion;
+package Class.Concepts.Recursion.Easy;
 
 public class FibowithFormula {
     public static void main(String[] args) {

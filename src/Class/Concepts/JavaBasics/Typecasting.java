@@ -6,7 +6,7 @@ public class Typecasting {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         //Type Conversion you can do it from big to small ex-> float to int and not vice versa
-//        float num = input.nextInt() ;   This is possible
+        //float num = input.nextInt() ;   This is possible
         //        int num = input.nextFloat() ;   This is not possible
 
         // Typecasting
