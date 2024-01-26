@@ -6,12 +6,25 @@
   <component name="ChangeListManager">
     <list default="true" id="e1e139a3-9de0-43af-b9c8-b0f708f57a84" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class/Concepts/JavaBasics/Typecasting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Concepts/JavaBasics/Typecasting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class/Concepts/Recursion/BSwithRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Concepts/Recursion/Easy/BSwithRecursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class/Concepts/Recursion/FibonacciNo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Concepts/Recursion/Easy/FibonacciNo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class/Concepts/Recursion/FibowithFormula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Concepts/Recursion/Easy/FibowithFormula.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class/Concepts/Recursion/Printno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Concepts/Recursion/Easy/Printno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class/Concepts/Arrays/Searching/BinarySearchin2DRowColMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Concepts/Arrays/Searching/BinarySearchin2DRowColMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class/Concepts/Arrays/Searching/BinarySearchinSortedMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Concepts/Arrays/Searching/BinarySearchinSortedMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class/Concepts/Arrays/Sorting/BubbleSort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Concepts/Arrays/Sorting/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class/Concepts/Arrays/Sorting/BubbleSort/BubbleSortusingWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Concepts/Arrays/Sorting/BubbleSortusingWhile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class/Concepts/Arrays/Sorting/CyclicSort/CyclicSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Concepts/Arrays/Sorting/CyclicSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class/Concepts/Arrays/Sorting/InsertionSort/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Concepts/Arrays/Sorting/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class/Concepts/Arrays/Sorting/SelectionSort/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Concepts/Arrays/Sorting/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class/Concepts/BitManipulation/FindNonTriplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Concepts/BitManipulation/FindNonTriplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class/Concepts/Recursion/Arrays/LinearSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Concepts/Recursion/Arrays/LinearSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class/Concepts/Recursion/Sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Concepts/Recursion/Sorting/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class/Concepts/Recursion/Sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Concepts/Recursion/Sorting/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class/Concepts/Recursion/Sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Concepts/Recursion/Sorting/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class/Concepts/Recursion/Strings/AscIIsubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Concepts/Recursion/Strings/AscIIsubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class/Concepts/Recursion/Strings/SubseqUsingIteraion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Concepts/Recursion/Strings/SubsetUsingIteraion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class/Concepts/Recursion/Strings/Subsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Concepts/Recursion/Strings/Subsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class/Examples/ArrayExamples/Searching/BinarySearch/BSinRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Examples/ArrayExamples/Searching/BinarySearch/BSinRotatedSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class/Examples/ArrayExamples/Searching/BinarySearch/BSinRotatedSortedArraywithDuplicateElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Examples/ArrayExamples/Searching/BinarySearch/BSinRotatedSortedArraywithDuplicateElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class/Examples/ArrayExamples/Searching/BinarySearch/SplitArrayLargestSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Examples/ArrayExamples/Searching/BinarySearch/SplitArrayLargestSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class/Examples/ArrayExamples/Sorting/CyclicSort/FindMissingNo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Examples/ArrayExamples/Sorting/CyclicSort/FindMissingNo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +56,8 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/All Projects and code/Java DSA Main/Java-DSA&quot;
   }
 }</component>
   <component name="RunManager">
@@ -145,13 +159,8 @@
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Demo.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Class/Concepts/BitManipulation/FindNonTriplicate.java</url>
-          <line>7</line>
+          <line>11</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -160,19 +169,9 @@
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Demo.java</url>
-          <line>70</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Class/Concepts/Arrays/Sorting/InsertionSort/InsertionSort.java</url>
+          <url>file://$PROJECT_DIR$/src/Class/Concepts/Arrays/Sorting/InsertionSort.java</url>
           <line>11</line>
           <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Class/Concepts/Recursion/Easy/Printno.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Class/Concepts/Recursion/Easy/AdditionOfDigits.java</url>
@@ -198,6 +197,25 @@
           <url>file://$PROJECT_DIR$/src/Class/Concepts/Recursion/Sorting/InplaceMergeSort.java</url>
           <line>12</line>
           <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Class/Concepts/Recursion/Easy/Printno.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Class/Concepts/Recursion/Strings/Permutation.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Class/Concepts/Recursion/Easy/Printno.java</url>
+          <line>14</line>
+          <properties class="Class.Concepts.Recursion.Easy.Printno" method="fxn2">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

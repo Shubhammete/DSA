@@ -30,8 +30,8 @@ public class SplitArrayLargestSum {
         int end = 0;
 
         for(int i = 0;i<arr.length;i++){
-            start = Math.max(start,arr[i]);
-            end +=arr[i];
+            start = Math.max(start,arr[i]);  // min value of range i.e. max of array
+            end +=arr[i];                    // max value of range i.e. sum of array
         }
 
 
@@ -39,8 +39,9 @@ public class SplitArrayLargestSum {
         while(start<end){
             int mid = start + (end - start) /2;
             int sum = 0;
-            int pieces = 1;
+            int pieces = 1;    // no of partitions
             for(int num : arr){
+                // if sum exceeds the mid them start from next element and increment pieces else keep adding elements
                 if(sum+num > mid){
                     sum = num;
                     pieces++;
@@ -49,12 +50,15 @@ public class SplitArrayLargestSum {
                 }
             }
 
-            if(pieces > n){
-                start = mid + 1;
-            }else{
+            // we divided array into few parts or equal to given limit, so we have to decrease the sum in range so end = mid and not -1 as it could be answer
+            if(pieces <= n){
                 end = mid;
+            }else{
+                // we divided array into more parts than given, so we have to increase the sum in range so start = mid + 1
+                start = mid + 1;
             }
         }
+        // At last start = end and this is final answer
         return end;
     }
 }

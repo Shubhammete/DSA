@@ -2,10 +2,10 @@ package Class.Examples.ArrayExamples.Searching.BinarySearch;
 
 public class BSinRotatedSortedArraywithDuplicateElements {
     public static void main(String[] args) {
-//        int[] arr = {4,4,4,5,6,23,0,1,1,2,2,2,3};
-//        int target = 4;
-        int[] arr = {5,6,0,1,2,3,4};
-        int target = 2;
+        int[] arr = {4,4,4,5,6,23,0,1,1,2,2,2,3};
+        int target = 4;
+//        int[] arr = {5,6,0,1,2,3,4};
+//        int target = 2;
         System.out.println(ans(arr,target));
 
 
@@ -52,8 +52,8 @@ public class BSinRotatedSortedArraywithDuplicateElements {
                     return end-1;
                 }
                 end--;
-                // check condition for start and end by comparing it with mid
-            }else if(arr[start] < arr[mid] ||(arr[start] == arr[mid] && arr[mid] > arr[end])){
+                // here or condition is for if start == mi
+            }else if(arr[start] < arr[mid]){
                     start = mid + 1;
             }else{
                 end = mid  - 1;

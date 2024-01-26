@@ -2,7 +2,7 @@ package Class.Concepts.Recursion.Strings;
 
 public class AscIIsubsequence {
     public static void main(String[] args) {
-        sub("abcd","");
+        sub("abc","");
     }
 
     static void sub(String up, String p){
@@ -13,6 +13,7 @@ public class AscIIsubsequence {
         char ch = up.charAt(0);
         sub(up.substring(1),p+ch);
         sub(up.substring(1),p);
+        // convert into ascii value -> (char + 0)
         sub(up.substring(1),p+(ch+0));
     }
 }

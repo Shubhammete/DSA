@@ -2,7 +2,7 @@ package Class.Concepts.Arrays.Searching;
 
 import java.util.Arrays;
 
-public class BinarySearchin2DRowColMatrix {
+public class  BinarySearchin2DRowColMatrix {
     public static void main(String[] args) {
         int[][] arr = {
                 {10,12,23},
@@ -22,9 +22,11 @@ public class BinarySearchin2DRowColMatrix {
                 return new int[]{row,col};
             }
 
+            // target is greater skip col as all ahead elements are greater
             if(arr[row][col] > target){
                 col--;
             }else{
+                // target is smaller search in same column just increase row
                 row++;
             }
         }

@@ -37,7 +37,7 @@ public class QuickSort {
         }
 
         // now pivot is at correct position so sort two halves
-        sort(arr,low,end);
-        sort(arr,start,high);
+        sort(arr,low,end);  // low == 0 and end == 0 will be no before pivot
+        sort(arr,start,high);  // start == no after pivot and high == arr.length
     }
 }

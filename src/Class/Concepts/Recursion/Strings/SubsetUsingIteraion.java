@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class SubseqUsingIteraion {
+public class SubsetUsingIteraion {
     public static void main(String[] args) {
         System.out.println(subset(new int[]{8,4,9}));
-        System.out.println(duplicatesubset(new int[]{8,4,8}));
+        System.out.println(duplicatesubset(new int[]{8,4,8,7,8}));
     }
 
     static List<List<Integer>> subset(int[] arr){
@@ -18,10 +18,11 @@ public class SubseqUsingIteraion {
         for(int num : arr){
             int n = outer.size();
             for(int i = 0; i<n;i++){
-                // copy of ith array
+                // copy of ith array for i = 1 -> it is copy of [[],[1]] so that we can carry answer forward
                 List<Integer> internal = new ArrayList<>(outer.get(i));
-                // adding elemetns in copy
+                // adding elemetns in copied array
                 internal.add(num);
+                // adding lists in main array
                 outer.add(internal);
             }
         }
@@ -38,9 +39,10 @@ public class SubseqUsingIteraion {
         outer.add(new ArrayList<>());
         int start = 0;
         int end = 0;
+        //iterate over all array
         for(int j = 0;j<arr.length;j++){
-            start = 0;
-            // if current nad previous element is same, start = end + 1
+//            start = 0;
+            // if current and previous element is same, start = end + 1
             if(j>0 && arr[j]==arr[j-1]){
                 start = end+1;
             }
@@ -50,7 +52,7 @@ public class SubseqUsingIteraion {
             for(int i = start; i<n;i++){
                 // copy of ith array
                 List<Integer> internal = new ArrayList<>(outer.get(i));
-                // adding elemetns in copy
+                // adding elements in copy
                 internal.add(arr[j]);
                 outer.add(internal);
             }

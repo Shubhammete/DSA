@@ -14,7 +14,7 @@ public class SelectionSort {
             return;
         }
         if(row>col){
-
+        // finds max element in array
             if(arr[col]>arr[max]){
 //                arr[max] = arr[col];
                 sort(arr,row,col+1,col);
@@ -22,6 +22,7 @@ public class SelectionSort {
                 sort(arr, row, col+1, max);
             }
         }else{
+            // sets last index to max element and then decrease row value to sort remaining array
 //            arr[row-1] = arr[max];
             int temp = arr[max];
             arr[max] = arr[row-1];

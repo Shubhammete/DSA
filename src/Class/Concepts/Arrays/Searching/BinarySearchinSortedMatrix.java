@@ -11,7 +11,7 @@ public class BinarySearchinSortedMatrix {
                 {13, 14, 15, 16}
         };
 
-        System.out.println(Arrays.toString(search(arr, 17)));
+        System.out.println(Arrays.toString(search(arr, 7)));
     }
 
     static int[] search(int[][] arr, int target) {
@@ -28,7 +28,7 @@ public class BinarySearchinSortedMatrix {
         int colMid = cols  / 2;
 
         // run while loop until two rows are remaining
-        while (rowStart < (rowEnd - 1)) // loop break point --> rowStart == rowEnd - 1  rowStart = 0  rowEnd = 1
+        while (rowStart < (rowEnd - 1)) // loop break point --> rowStart == rowEnd - 1 -> rowStart = 0  rowEnd = 1
         {
             int mid = rowStart + (rowEnd - rowStart) / 2;
             if (arr[mid][colMid] == target) {
@@ -45,22 +45,22 @@ public class BinarySearchinSortedMatrix {
         if (arr[rowStart][colMid] == target) {
             return new int[]{rowStart, colMid};
         }
-        if (arr[rowStart + 1][colMid] == target) {
-            return new int[]{rowStart + 1, colMid};
+        if (arr[rowEnd][colMid] == target) {
+            return new int[]{rowEnd, colMid};
         }
-        // check for 1st half
+        // check for 1st half  -> smaller than target then go
         if (arr[rowStart][colMid - 1] >= target) {
             return BS(arr, target, rowStart, 0, colMid-1);
         }
-        // 2nd half
+        // 2nd half -> larger than target and smaller than end of that col
         if (arr[rowStart][colMid + 1] <= target  && target <= arr[rowStart][cols-1]) {
             return BS(arr, target, rowStart , colMid + 1, cols - 1);
         }
         // 3rd half
-        if (arr[rowStart+1][colMid - 1] >= target ) {
-            return BS(arr, target, rowStart+1, 0, colMid-1);
+        if (arr[rowEnd][colMid - 1] >= target ) {
+            return BS(arr, target, rowEnd, 0, colMid-1);
         }else {
-            return BS(arr, target, rowStart + 1, colMid + 1, cols - 1);
+            return BS(arr, target, rowEnd, colMid + 1, cols - 1);
         }
 
 //        return new int[]{};

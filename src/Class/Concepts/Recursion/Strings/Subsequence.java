@@ -1,9 +1,8 @@
 package Class.Concepts.Recursion.Strings;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
-public class Subsets {
+public class Subsequence {
     public static void main(String[] args) {
         subset("","abc");
         System.out.println(sub("","abc"));

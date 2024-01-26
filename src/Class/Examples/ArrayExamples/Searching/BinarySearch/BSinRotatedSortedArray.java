@@ -19,7 +19,7 @@ public class BSinRotatedSortedArray {
         if(arr[pivot] == target){
             return pivot;
         }
-
+        System.out.println(arr[pivot]);
 
         if(arr[0]<=arr[target]){
             return BS(arr,target,0,pivot-1);
@@ -34,12 +34,16 @@ public class BSinRotatedSortedArray {
         int end = arr.length-1;
         while(start<=end){
             int mid = start + (end - start) / 2;
+            // only 6,0 is descending order so
+            // this for if m == 6
             if(arr[mid]>arr[mid+1]){
                 return mid;
             }
+            // this for if m ==0
             if(arr[mid]<arr[mid-1]){
                 return mid-1;
             }
+
             if(arr[mid]<=arr[start]){
                 end = mid - 1;
             }else{

@@ -1,4 +1,4 @@
-package Class.Concepts.Arrays.Sorting.BubbleSort;
+package Class.Concepts.Arrays.Sorting;
 // exchange sort and sinking sort
 // space complexity O(1) = no extra space required i.e. no copying array etc. these type of are called as inplace sorting algorithms
 import java.util.Arrays;

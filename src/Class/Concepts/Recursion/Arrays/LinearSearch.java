@@ -5,13 +5,22 @@ import java.util.Arrays;
 
 public class LinearSearch {
     public static void main(String[] args) {
+        // search for first index
         System.out.println(search(new int[]{2,5,8,5,3,5,33,4,5,75,5,56},5,0));
+
+        // search for last index
         int[] arr =  new int[]{2,5,8,5,3,5,33,4,5,75,5,56};
         System.out.println(revsearch(arr,5,arr.length-1));
+
+        // search for all index
         searchAllIndex(arr,5,0);
         System.out.println(list);
+
+        //passing ArrayList as argument
         ArrayList<Integer> set = new ArrayList<>();
         System.out.println(searchlist(arr,5,0,set));
+
+        // list initialized in function body
         System.out.println(listinbody(arr,5,0));
     }
 
@@ -33,7 +42,7 @@ public class LinearSearch {
         if(arr[index] == target){
             list.add(index);
         }
-
+        // adding to each function call answer to list
         ArrayList<Integer> answers = listinbody(arr,target,++index);
         list.addAll(answers);
         return list;
