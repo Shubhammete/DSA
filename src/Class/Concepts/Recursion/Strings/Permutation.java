@@ -45,12 +45,12 @@ public class Permutation {
         }
 
         char a = p.charAt(0);
-        ArrayList<String> finalans = new ArrayList<>();
+        ArrayList<String> final_ans = new ArrayList<>();
         for(int i = 0; i <= up.length();i++){
             String f = up.substring(0,i);
             String s = up.substring(i,up.length());
-            finalans.addAll(permlist(f+a+s,p.substring(1)));
+            final_ans.addAll(permlist(f+a+s,p.substring(1)));
         }
-        return finalans;
+        return final_ans;
     }
 }

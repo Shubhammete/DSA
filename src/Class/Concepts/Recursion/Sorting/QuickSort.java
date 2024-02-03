@@ -20,13 +20,15 @@ public class QuickSort {
         int pivot = arr[mid];
 
         while(start<=end) {
+            // if pivot is greater than starting elements then just increment start
             while (arr[start] < pivot) {
                     start++;
             }
+            // if pivot is smaller than end elements then just decrement end
             while (arr[end] > pivot){
                 end--;
             }
-
+            // swap the elements if above conditions break and swap them
             if(start<=end){
                 int temp = arr[start];
                 arr[start] = arr[end];
@@ -37,7 +39,7 @@ public class QuickSort {
         }
 
         // now pivot is at correct position so sort two halves
-        sort(arr,low,end);  // low == 0 and end == 0 will be no before pivot
-        sort(arr,start,high);  // start == no after pivot and high == arr.length
+        sort(arr,low,end);  // end will be mid - 1  i.e. low == 0 and end == 0 will be no before pivot
+        sort(arr,start,high);  // start will be mid + 1 i.e. start == no after pivot and high == arr.length
     }
 }

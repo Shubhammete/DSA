@@ -18,8 +18,9 @@ public class Subsequence {
     }
 
     static ArrayList<String> sub(String p, String up){
-        ArrayList<String> list = new ArrayList<>();
+
         if(up.isEmpty()){
+            ArrayList<String> list = new ArrayList<>();
             list.add(p);
             return list;
         }

@@ -2,7 +2,7 @@ package Class.Examples.ArrayExamples.Searching.BinarySearch;
 
 public class FindCeilElement {
     public static void main(String[] args) {
-        int[] arr = {2,3,4,5,6,13,14,15,23,26,27,33,36};
+        int[] arr = {2,3,4,5,6,13,14,15,23,26,27,33,36,40};
         int target = 17;
         // ceil number is the smallest element which is greater than equal to target
         System.out.println(findCeil(arr,target));
@@ -19,7 +19,7 @@ public class FindCeilElement {
 
 
 
-        while(start < end){
+        while(start <= end){
             int mid = start + (end - start)/2;
             if(arr[mid] == target){
                 return arr[mid];
