@@ -14,8 +14,9 @@ public class FindMissingNo {
         
         int i = 0;
         while(i<arr.length){
-            if(arr[i] < arr.length && arr[i] != arr[arr[i]]){
-                swap(arr,i,arr[i]);
+            int correctIndex = arr[i];
+            if(arr[i] < arr.length && arr[i] != arr[correctIndex]){
+                swap(arr,i,correctIndex);
             }else{
                 i++;
             }

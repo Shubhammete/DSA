@@ -27,9 +27,12 @@ public class FindDuplicate {
         // do all things in one loop
         int i = 0;
         while(i<nums.length){
+            // check if element is at correct index
             if(nums[i] != i+1){
+                // if not check correct index of element has element
                 if(nums[i] != nums[nums[i]-1]){
                     swap(nums,i,nums[i]-1);
+                    // if yes then it is duplicate
                 }else{
                     return nums[i];
                 }

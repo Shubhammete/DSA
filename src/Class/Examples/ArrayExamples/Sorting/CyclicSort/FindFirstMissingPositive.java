@@ -1,5 +1,7 @@
 package Class.Examples.ArrayExamples.Sorting.CyclicSort;
 
+import java.util.Arrays;
+
 public class FindFirstMissingPositive {
     public static void main(String[] args) {
         int[] nums = {3,4,-1,1};
@@ -15,7 +17,7 @@ public class FindFirstMissingPositive {
                 i++;
             }
         }
-
+        System.out.println(Arrays.toString(arr));
         for(int j = 0; j< arr.length; j++){
             if(arr[j] != j+1){
                 return j+1;

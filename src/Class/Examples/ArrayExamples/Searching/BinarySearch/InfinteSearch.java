@@ -3,8 +3,8 @@ package Class.Examples.ArrayExamples.Searching.BinarySearch;
 public class InfinteSearch {
     public static void main(String[] args) {
         // assume this has unknown size
-        int[] arr= {1,3,5,7,9,12,16,18,19,23,25,56,78,99};
-        int target = 23;
+        int[] arr= {1,3,5,9,88};
+        int target = 3;
         System.out.println(ans(arr,target));
      }
 
@@ -28,7 +28,7 @@ public class InfinteSearch {
         while(start <= end){
             int mid = start + (end - start)/2;
             if(target == arr[mid]){
-                return arr[mid];
+                return mid;
             }
             if(target < arr[mid]){
                 end = mid - 1;

@@ -11,7 +11,7 @@ public class BinarySearchinSortedMatrix {
                 {13, 14, 15, 16}
         };
 
-        System.out.println(Arrays.toString(search(arr, 7)));
+        System.out.println(Arrays.toString(search(arr, 15)));
     }
 
     static int[] search(int[][] arr, int target) {
