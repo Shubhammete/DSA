@@ -21,11 +21,14 @@ public class InplaceMergeSort {
     }
 
     static void merge(int[] arr, int start, int mid, int end){
-
+        // new array of size of left + right
         int[] mix = new int[end-start];
+        // pointers for original array
         int i = start;
         int j = mid;
+        // pointer for mix
         int k = 0;
+
         while(i<mid && j<end){
             if(arr[i]<arr[j]){
                 mix[k] = arr[i];

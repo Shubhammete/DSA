@@ -14,19 +14,19 @@ public class SelectionSort {
             return;
         }
         if(row>col){
-        // finds max element in array
+            // finds max element in array and pass it as max in argument
             if(arr[col]>arr[max]){
-//                arr[max] = arr[col];
                 sort(arr,row,col+1,col);
             }else {
+                // else keep first max as it is
                 sort(arr, row, col+1, max);
             }
         }else{
-            // sets last index to max element and then decrease row value to sort remaining array
-//            arr[row-1] = arr[max];
+            // swap and set last index as max
             int temp = arr[max];
             arr[max] = arr[row-1];
             arr[row-1] = temp;
+            // reduce the row
             sort(arr,row-1,0,0);
         }
     }

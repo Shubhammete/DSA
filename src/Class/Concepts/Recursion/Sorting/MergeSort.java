@@ -11,14 +11,18 @@ public class MergeSort {
         if(arr.length == 1){
             return arr;
         }
+        // divide array into half
         int mid = arr.length/2;
+        // left sort the half of array
         int[] left = sort(Arrays.copyOfRange(arr,0,mid));
+        // right sort the half of array
         int[] right = sort(Arrays.copyOfRange(arr,mid,arr.length));
 
         return merge(left,right);
     }
 
     private static int[] merge(int[] left, int[] right) {
+        // create new array of left and right addtion
         int[] mix = new int[left.length+right.length];
 
         int i = 0;

@@ -49,7 +49,7 @@ public class LinearSearch {
     }
 
     private static int revsearch(int[] arr, int target,int index) {
-        if(0 == index){
+        if(index == 0){
             return -1;
         }
         if(arr[index] == target){

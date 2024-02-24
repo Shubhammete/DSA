@@ -17,6 +17,7 @@ public class PerformanceStringBuilder {
             string.append(ch);
         }
         System.out.println(string);
+        // convert StringBuilder to string
         System.out.println(string.toString());
     }
 }

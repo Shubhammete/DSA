@@ -11,17 +11,6 @@ public class FlippingImage {
                 {0,1,1,1}
         };
 
-//        for(int[] row: image){
-//            int start = 0;
-//            int end = image.length-1;
-//            while(start<end){
-//                swap(row,start,end);
-//                start++;
-//                end--;
-//            }
-//
-//        }
-
         for(int[] row : image){
             for(int i = 0;i<(image[0].length+1)/2;i++){
                 int temp = row[i]^1;
@@ -35,10 +24,6 @@ public class FlippingImage {
         }
     }
 
-    static void swap(int[] arr,int first, int second){
-        int temp = arr[first]^1;
-        arr[first] = arr[second]^1;
-        arr[second] = temp;
-    }
+
 
 }
