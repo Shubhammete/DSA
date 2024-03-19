@@ -1,8 +1,6 @@
 package Class.Concepts.Recursion.Strings;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class SubsetUsingIteraion {
     public static void main(String[] args) {
@@ -17,7 +15,7 @@ public class SubsetUsingIteraion {
         outer.add(new ArrayList<>());
         for(int num : arr){
             int n = outer.size();
-            for(int i = 0; i<n;i++){
+            for(int i = 0;i<n;i++){
                 // copy of ith array for i = 1 -> it is copy of [[],[1]] so that we can carry answer forward
                 List<Integer> internal = new ArrayList<>(outer.get(i));
                 // adding elemetns in copied array
@@ -43,6 +41,7 @@ public class SubsetUsingIteraion {
         for(int j = 0;j<arr.length;j++){
 //            start = 0;
             // if current and previous element is same, start = end + 1
+            Arrays.sort(arr);
             if(j>0 && arr[j]==arr[j-1]){
                 start = end+1;
             }
