@@ -1,0 +1,5 @@
+Multiple inheritance is not allowed in Java due to problem of ambiguity of same variables in parent class\
+
+Also, hybrid inheritance is not allowed as it is combination of multiple and single inheritance
+
+Same for cyclic inheritance i.e. class is inheriting itself
