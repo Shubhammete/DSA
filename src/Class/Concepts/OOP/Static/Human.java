@@ -7,13 +7,12 @@ public class Human {
         Person shubham = new Person(22,"Shubham");
         System.out.println(kunal.population);
         System.out.println(shubham.population);
-
         // you can even call static variable without creating objects
         System.out.println(Person.population);
 //        greeting();   cannot access non-static inside static
     }
 
-    // static is dependent on object
+    // static is independent on object
     void greeting(){
         System.out.println("Greet");
     }

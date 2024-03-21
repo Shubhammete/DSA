@@ -1,6 +1,7 @@
 package Class.Concepts.OOP.Singleton;
 // singleton class is something that its object is created only once
 public class singleton {
+    // private constructor so only class can use this
     private singleton(){
     }
     // created object in class static as we have to access it in getInstance which is static
