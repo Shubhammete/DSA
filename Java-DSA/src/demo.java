@@ -97,6 +97,7 @@ public class demo {
                         }
                 }
 
+                // check in box
                 int sqrt = (int)(Math.sqrt(board.length));
                 int rowStart = row - row % sqrt;
                 int colStart = col - col % sqrt;
