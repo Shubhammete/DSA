@@ -28,7 +28,7 @@ int main(){
 
     // pass by value
     int a = 23;
-    random(and);
+    random(a);
     cout << a; // it gives 23 and not 27 as just the value copy passed and not the actual reference 
     reference(a);
     cout << a; // now its 27
